@@ -1,0 +1,5 @@
+[run]
+include = trndy_cleaners/*
+omit = *migrations*, *tests*
+plugins =
+    django_coverage_plugin
